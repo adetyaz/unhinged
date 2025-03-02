@@ -6,7 +6,7 @@ export const SpinningFan = () => {
       viewBox="0 0 261 261"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      // className="animate-[spinningWheel_8s_infinite]"
+      className="animate-[spinningWheel_8s_infinite] relative z-10"
     >
       <circle
         cx="130.609"

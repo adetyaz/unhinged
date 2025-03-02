@@ -44,10 +44,7 @@ export const Hydraulics = () => {
           strokeLinejoin="bevel"
         />
       </g>
-      <g
-        stroke="#EAF4E8"
-        // className="animate-[bounce_5s_infinite_linear]"
-      >
+      <g stroke="#EAF4E8" className="animate-[bounce_5s_infinite_linear]">
         <path
           d="M61.4878 4.5C65.7924 2.01472 72.7716 2.01472 77.0762 4.5L130.77 35.5C135.074 37.9853 135.074 42.0147 130.77 44.5L77.0762 75.5C72.7716 77.9853 65.7924 77.9853 61.4878 75.5L7.79418 44.5C3.48955 42.0147 3.48955 37.9853 7.79418 35.5L61.4878 4.5Z"
           strokeLinejoin="bevel"

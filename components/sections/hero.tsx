@@ -1,17 +1,18 @@
 import { HeroButton } from "../ui/hero-button";
 import Image from "next/image";
 import { SpinningFan } from "../ui/spinning-fan";
-import { GlowButton } from "../ui/glow-button";
+// import { GlowButton } from "../ui/glow-button";
 import { Hydraulics } from "../ui/hydraulics";
-// import { GlowPath } from "../ui/glow-path";
+import { GlowPath } from "../ui/glow-path";
 
 export const Hero = () => {
   return (
-    <section className="grid space-y-8 py-20">
+    <section className="grid space-y-12 py-20">
       <div className="grid space-y-4 md:space-y-0 md:grid-cols-3 md:gap-4">
-        <div className="grid space-y-8">
-          <h1 className="font-bold text-[#E7C481] text-4xl leading-[1.2]">
-            Efficiency Beyond Limits: Monitor, Control, Sustain.
+        <div className="grid  pt-8">
+          <h1 className="font-bold text-[#E7C481] text-[40px] leading-[1.2]">
+            Efficiency <br />
+            Beyond Limits: Monitor, Control, Sustain.
           </h1>
           <p className="text-[#C0A36C]">
             Unlock unparalleled efficiency: monitor usage, take charge of
@@ -22,14 +23,14 @@ export const Hero = () => {
         </div>
         <div>
           <div className="relative flex items-center justify-center">
-            <div className="w-fit bg-[#ffffff05] rounded-[4rem] relative shadow-[-2px_0px_5px_0px_rgba(0,0,0,0.25)]">
+            <div className="w-fit bg-gradient-to-b from-[#ffffff05] to-transparent rounded-[4rem] relative shadow-[-2px_0px_5px_0px_rgba(0,0,0,0.25)]">
               <svg
                 width="437"
                 height="570"
                 viewBox="0 0 437 570"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute -top-20 left-1/2 transform -translate-x-1/2 animate-[pulseGlow_5s_infinite] rounded-full blur-2xl"
+                className="absolute -top-20 left-1/2 transform -translate-x-1/2 animate-[pulseGlow_5s_infinite] ease-[cubic-bezier(0.33, 1, 0.68, 1)] rounded-full blur-2xl"
               >
                 <g filter="url(#filter0_f_1_771)">
                   <circle
@@ -99,7 +100,7 @@ export const Hero = () => {
               src="/images/iPhone.png"
               alt="hero image"
               width={190}
-              height={480}
+              height={450}
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
@@ -110,8 +111,10 @@ export const Hero = () => {
         </div>
       </div>
       <div>
-        <GlowButton />
-        {/* <GlowPath /> */}
+        {/* <GlowButton /> */}
+        <div className="absolute bottom-0 right-[20%]">
+          <GlowPath />
+        </div>
       </div>
     </section>
   );
