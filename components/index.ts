@@ -13,6 +13,8 @@ export { AtomPanel } from "./ui/atom-panel";
 export { AtomFan } from "./ui/atom-fan";
 export { AtomNuclear } from "./ui/atom-nuclear";
 export { AtomBuilding } from "./ui/atom-building";
+export { SunGlow } from "./ui/sun-glow";
+export { AtomShadow } from "./ui/atom-shadow";
 
 //UI Sections
 export { Hero } from "./sections/hero";

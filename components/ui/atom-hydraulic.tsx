@@ -6,6 +6,7 @@ export const AtomHydraulic = () => {
       viewBox="0 0 121 121"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="absolute"
     >
       <g clip-path="url(#clip0_1_2481)">
         <rect

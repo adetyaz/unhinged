@@ -6,6 +6,7 @@ export const AtomBuilding = () => {
       viewBox="0 0 120 121"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="absolute"
     >
       <rect
         x="0.5"

@@ -8,6 +8,7 @@ export const AtomEnergy = () => {
       viewBox="0 0 556 538"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="relative z-20"
     >
       <g filter="url(#filter0_f_1_2466)">
         <circle cx="278" cy="287" r="73" fill="#FF9D0B" />
