@@ -6,6 +6,7 @@ export const AtomNuclear = () => {
       viewBox="0 0 121 130"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="absolute"
     >
       <rect
         x="1.33887"

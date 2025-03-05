@@ -15,12 +15,16 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="h-dvh sm:min-h-screen w-screen pt-4 px-24 bg-[#0C100F] relative">
-      <div>
-        <Nav />
-        <Hero />
-        <Energy />
-      </div>
+    <main
+      className="pt-4 px-24 
+   
+   bg-[#0C100F]
+    relative"
+    >
+      <Nav />
+      <Hero />
+      <Energy />
+
       {pageWidth && (
         <div className="bg-transparent text-transparent py-4 px-12 rounded-full fixed left-12 top-32">
           {pageWidth}

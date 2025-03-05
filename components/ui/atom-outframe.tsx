@@ -16,9 +16,9 @@ export const AtomOutframe = () => {
         height="497.204"
         rx="38.5"
         stroke="#141B18"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="156 156"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeDasharray="156 156"
       />
     </svg>
   );

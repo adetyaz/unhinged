@@ -6,7 +6,7 @@ export const AtomFan = () => {
       viewBox="0 0 120 120"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="absolute"
+      className="absolute -left-[7.5rem] bottom-[12.5rem]"
     >
       <rect
         x="0.5"

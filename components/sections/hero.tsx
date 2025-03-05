@@ -7,7 +7,7 @@ import { GlowPath } from "../ui/glow-path";
 
 export const Hero = () => {
   return (
-    <section className="grid space-y-12 py-20">
+    <section className="grid space-y-12 py-20 relative">
       <div className="grid space-y-4 md:space-y-0 md:grid-cols-3 md:gap-4">
         <div className="grid  pt-8">
           <h1 className="font-bold text-[#E7C481] text-[40px] leading-[1.2]">
@@ -112,7 +112,7 @@ export const Hero = () => {
       </div>
       <div>
         {/* <GlowButton /> */}
-        <div className="absolute bottom-0 right-[20%]">
+        <div className="absolute bottom-[5rem] right-[10%]">
           <GlowPath />
         </div>
       </div>
