@@ -1,29 +1,29 @@
 export const SunGlow = () => {
   return (
     <svg
-      width="799"
-      height="799"
-      viewBox="0 0 799 799"
+      width="639.2"
+      height="639.2"
+      viewBox="0 0 639.2 639.2"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="absolute left-1/2 -translate-x-1/2 -top-24 blur-xl"
+      className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 blur-xl"
     >
       <g filter="url(#filter0_f_1_2461)">
         <rect
-          x="245"
-          y="245"
-          width="308.92"
-          height="308.92"
+          x="196"
+          y="196"
+          width="247.14"
+          height="247.14"
           fill="url(#paint0_radial_1_2461)"
         />
       </g>
       <defs>
         <filter
           id="filter0_f_1_2461"
-          x="0.600006"
-          y="0.600006"
-          width="797.72"
-          height="797.72"
+          x="0.48"
+          y="0.48"
+          width="637.78"
+          height="637.78"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -35,7 +35,7 @@ export const SunGlow = () => {
             result="shape"
           />
           <feGaussianBlur
-            stdDeviation="122.2"
+            stdDeviation="140"
             result="effect1_foregroundBlur_1_2461"
           />
         </filter>
@@ -45,12 +45,15 @@ export const SunGlow = () => {
           cy="0"
           r="1"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(345.394 421.022) rotate(67.8623) scale(143.475 152.61)"
+          gradientTransform="translate(276.31 336.82) rotate(67.8623) scale(143.475 152.61)"
         >
-          <stop stopColor="#16C277" />
-          <stop offset="1" stopColor="#0A486E" />
+          <stop stopColor="#12E05A" stopOpacity="1" />
+          <stop offset="0.9" stopColor="#0084D6" stopOpacity="0.95" />
+          <stop offset="1" stopColor="#002D5C" stopOpacity="1" />
         </radialGradient>
       </defs>
     </svg>
   );
 };
+
+// className = "absolute left-1/2 -translate-x-1/2 -top-24 blur-xl";

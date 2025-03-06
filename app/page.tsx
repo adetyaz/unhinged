@@ -1,5 +1,5 @@
 "use client";
-import { Energy, Hero, Nav } from "@/components";
+import { Energy, Features, Hero, Nav } from "@/components";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -16,15 +16,18 @@ export default function Home() {
 
   return (
     <main
-      className="pt-4 px-24 
-   
+      className="pt-4
    bg-[#0C100F]
     relative"
     >
-      <Nav />
-      <Hero />
-      <Energy />
+      <div className="px-24">
+        <Nav />
+        <Hero />
+        <Energy />
+      </div>
+      <Features />
 
+      <div className="px-24"></div>
       {pageWidth && (
         <div className="bg-transparent text-transparent py-4 px-12 rounded-full fixed left-12 top-32">
           {pageWidth}
